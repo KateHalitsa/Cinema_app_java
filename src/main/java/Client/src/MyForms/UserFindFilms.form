@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Client.src.MyForms.UserFindFilms">
+  <grid id="27dc6" binding="mainPanel" layout-manager="GridLayoutManager" row-count="3" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="3" left="6" bottom="6" right="6"/>
+    <constraints>
+      <xy x="20" y="20" width="644" height="433"/>
+    </constraints>
+    <properties>
+      <font size="12"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="21921" binding="topPanel" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="1" fill="1" indent="0" use-parent-layout="true">
+            <minimum-size width="500" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <grid id="d5ad1" layout-manager="GridLayoutManager" row-count="3" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="2" vgap="2">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="7a3cf" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font size="12"/>
+                  <text value="Имя фильма:"/>
+                </properties>
+              </component>
+              <component id="81b78" class="javax.swing.JTextField" binding="textFilmName">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <font size="12"/>
+                </properties>
+              </component>
+              <component id="b9e42" class="javax.swing.JButton" binding="buttonFind">
+                <constraints>
+                  <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font size="12"/>
+                  <text value="Поиск"/>
+                </properties>
+              </component>
+              <component id="ab01c" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font size="12"/>
+                  <text value="Жанр фильма:"/>
+                </properties>
+              </component>
+              <component id="7b9be" class="javax.swing.JComboBox" binding="comboBoxCategories">
+                <constraints>
+                  <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font size="12"/>
+                </properties>
+              </component>
+              <component id="59e46" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font size="12"/>
+                  <text value="Год выпуска фильма:"/>
+                </properties>
+              </component>
+              <grid id="89ad8" layout-manager="GridLayoutManager" row-count="1" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="f40e6" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font size="12"/>
+                      <text value=" до: "/>
+                    </properties>
+                  </component>
+                  <component id="12469" class="javax.swing.JFormattedTextField" binding="textFromYear">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="-1"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <font size="12"/>
+                    </properties>
+                  </component>
+                  <component id="c6319" class="javax.swing.JFormattedTextField" binding="textToYear">
+                    <constraints>
+                      <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="-1"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <font size="12"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <grid id="720c5" binding="resultsPanel" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="true"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <scrollpane id="3776f" binding="filmsScrollPanel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="12"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="42655" class="javax.swing.JTable" binding="filmsTable">
+                <constraints/>
+                <properties>
+                  <font size="12"/>
+                </properties>
+              </component>
+            </children>
+          </scrollpane>
+        </children>
+      </grid>
+      <toolbar id="324e1" binding="toolbarEditors">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="-1" height="20"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1973791"/>
+          <borderPainted value="false"/>
+          <foreground color="-4079167"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="fab1c" class="javax.swing.JButton" binding="buttonAddFilm">
+            <constraints/>
+            <properties>
+              <background color="-1973791"/>
+              <font size="12"/>
+              <text value="Добавить фильм"/>
+            </properties>
+          </component>
+          <component id="e2fab" class="javax.swing.JButton" binding="buttonEditFilm">
+            <constraints/>
+            <properties>
+              <background color="-1973791"/>
+              <font size="12"/>
+              <text value="Редактировать"/>
+            </properties>
+          </component>
+          <component id="f92e9" class="javax.swing.JButton" binding="buttonDeleteFilm">
+            <constraints/>
+            <properties>
+              <background color="-1973791"/>
+              <font size="12"/>
+              <text value="Удалить"/>
+            </properties>
+          </component>
+          <component id="165c5" class="javax.swing.JToolBar$Separator">
+            <constraints/>
+            <properties/>
+          </component>
+          <component id="7d424" class="javax.swing.JButton" binding="buttonFilmSchedule">
+            <constraints/>
+            <properties>
+              <background color="-1973791"/>
+              <font size="12"/>
+              <text value="Расписание"/>
+            </properties>
+          </component>
+          <component id="9ad0" class="javax.swing.JButton" binding="buttonFilmActors">
+            <constraints/>
+            <properties>
+              <background color="-1973791"/>
+              <font size="12"/>
+              <text value="Актеры"/>
+            </properties>
+          </component>
+          <component id="8e2de" class="javax.swing.JButton" binding="buttonFilmCategories">
+            <constraints/>
+            <properties>
+              <background color="-1973791"/>
+              <font size="12"/>
+              <text value="Жанры"/>
+            </properties>
+          </component>
+        </children>
+      </toolbar>
+    </children>
+  </grid>
+</form>
